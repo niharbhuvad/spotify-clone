@@ -35,5 +35,8 @@ Open index.html in your browser 🎉
 
 📸 Screenshots
 
-Add screenshots or a demo GIF of your app here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f2b4ee4f-f39a-4306-af4f-c7d19e15e6a3" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1d9f0395-28f0-43cc-8e01-0b18383f5f99" />
+
+
 
