@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+      href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png"
+    />
+    <link
+      rel="icon"
+      sizes="16x16"
+      type="image/png"
+      href="https://open.spotifycdn.com/cdn/images/favicon16.1c487bff.png"
+    />
+    <link
+      rel="icon"
+      href="https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div>
+          <img
+            class="invert"
+            src="svg/logo.svg"
+            alt="Spotify"
+            class="logo invert"
+          />
+        </div>
+        <div>
+          <button class="home graybg">
+            <img class="invert size" src="svg/home.svg" alt="Home" srcset="" />
+          </button>
+          <div class="search-bar graybg">
+            <span class="search-icon"
+              ><img class="invert size" src="svg/search.svg" alt="" srcset=""
+            /></span>
+            <input type="text" placeholder="What do you want to play?" />
+            <button class="clear-btn">
+              <img class="invert size" src="svg/brows.svg" alt="" srcset="" />
+            </button>
+          </div>
+        </div>
+        <div class="navbar-actions">
+          <a href="https://www.spotify.com/it/premium/"
+            ><span class="navbar-link">Premium</span></a
+          >
+          <a href="https://support.spotify.com/it/"
+            ><span class="navbar-link">Support</span></a
+          >
+          <a href="https://spotify.com/download"
+            ><span class="navbar-link">Download</span></a
+          >
+          <span class="navbar-divider"></span>
+          <span class="navbar-link install-app">
+            <img
+              class="invert s1 down"
+              src="svg/download.svg"
+              alt="Install App"
+            />
+            Install App
+          </span>
+          <span class="navbar-link">Sign up</span>
+          <button class="login-btn">Log in</button>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="left graybg">
+        <div class="library">
+          <div class="lib-header">
+            <h2>Your Library</h2>
+            <button class="add small-add">
+              <img class="invert s1" src="svg/add.svg" alt="Add" />
+            </button>
+          </div>
+          <div class="lib-cards">
+            <div class="card-1">
+              <h3>Create your first playlist</h3>
+              <p class="muted">It's easy, we'll help you</p>
+              <button class="card-btn">Create playlist</button>
+            </div>
+
+            <div class="card-1">
+              <h3>Let's find some podcasts to follow</h3>
+              <p class="muted">We'll keep you updated on new episodes</p>
+              <button class="card-btn">Browse podcasts</button>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <a href="https://www.spotify.com/it/legal/end-user-agreement/"
+              >Legal</a
+            >
+            <a href="https://www.spotify.com/it/safetyandprivacy"
+              >Safety & Privacy Center</a
+            >
+            <a href="https://www.spotify.com/it/legal/privacy-policy/"
+              >Privacy Policy</a
+            >
+            <a href="https://www.spotify.com/it/legal/cookies-policy/"
+              >Cookie Settings</a
+            >
+            <a href="https://www.spotify.com/it/legal/privacy-policy/#s3"
+              >About Ads</a
+            >
+            <a href="https://www.spotify.com/it/accessibility">Accessibility</a>
+            <a
+              href="https://www.spotify.com/it/legal/cookies-policy/"
+              class="cookies"
+              >Cookies</a
+            >
+          </div>
+
+          <div class="lang-wrap">
+            <button class="lang-btn">
+              <img class="invert s1" src="svg/lang.svg" alt="" srcset="" />
+              English
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="right gradient">
+        <div class="card-container">
+          <div class="section trending">
+            <h4>Trending</h4>
+            <div class="card-row" id="trending-row"></div>
+          </div>
+
+          <div class="section artists">
+            <h4>Artists</h4>
+            <div class="card-row" id="artists-row"></div>
+          </div>
+
+          <div class="section albums">
+            <h4>Albums</h4>
+            <div class="card-row" id="albums-row"></div>
+          </div>
+          <hr class="footer-divider" />
+          <div class="footer">
+            <div class="footer-main">
+              <div class="footer-section">
+                <h5>Company</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.spotify.com/it/about-us/contact/"
+                      >About</a
+                    >
+                  </li>
+                  <li><a href="https://www.lifeatspotify.com/">Jobs</a></li>
+                  <li>
+                    <a href="https://newsroom.spotify.com/">For the Record</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                <h5>Communities</h5>
+                <ul>
+                  <li>
+                    <a href="https://artists.spotify.com/home">For Artists</a>
+                  </li>
+                  <li>
+                    <a href="https://developer.spotify.com/">Developers</a>
+                  </li>
+                  <li>
+                    <a href="https://ads.spotify.com/it-IT/">Advertising</a>
+                  </li>
+                  <li>
+                    <a href="https://investors.spotify.com/home/default.aspx"
+                      >Investors</a
+                    >
+                  </li>
+                  <li><a href="https://spotifyforvendors.com/">Vendors</a></li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                <h5>Useful links</h5>
+                <ul>
+                  <li><a href="https://support.spotify.com/it/">Support</a></li>
+                  <li>
+                    <a href="https://www.spotify.com/it/free/"
+                      >Free Mobile App</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.spotify.com/it/legal/end-user-agreement/#s15"
+                      >Consumer rights</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://open.spotify.com/popular-in/it"
+                      >Popular by Country</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                <h5>Spotify Plans</h5>
+                <ul>
+                  <li>
+                    <a
+                      href="https://www.spotify.com/it/premium/#ref=spotifycom_footer_premium_individual"
+                      >Premium Individual</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.spotify.com/it/duo/#ref=spotifycom_footer_premium_duo"
+                      >Premium Duo</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.spotify.com/it/family/#ref=spotifycom_footer_premium_family"
+                      >Premium Family</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.spotify.com/it/student/#ref=spotifycom_footer_premium_student"
+                      >Premium Student</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.spotify.com/it/free/#ref=spotifycom_footer_free"
+                      >Spotify Free</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-social">
+                <a href="https://www.instagram.com/spotify/" class="social-icon"
+                  ><img src="svg/instagram.svg" alt="Instagram"
+                /></a>
+                <a href="https://x.com/spotify" class="social-icon"
+                  ><img src="svg/twitter.svg" alt="Twitter"
+                /></a>
+                <a href="https://www.facebook.com/Spotify" class="social-icon"
+                  ><img src="svg/facebook.svg" alt="Facebook"
+                /></a>
+              </div>
+            </div>
+            <hr class="footer-divider" />
+            <div class="footer-bottom">
+              <span>&copy; 2025 Spotify AB</span>
+            </div>
+            <div id="music-player" class="music-player hidden">
+              <div class="player-info">
+                <img
+                  src="https://i.scdn.co/image/ab67616d00001e02fddd600d9e45abb5e77c44e6"
+                  alt="Song"
+                  class="player-cover"
+                />
+                <div class="player-text">
+                  <div class="player-title">Song Title</div>
+                  <div class="player-artist">Artist Name</div>
+                </div>
+              </div>
+
+              <div class="player-controls">
+                <img
+                  id="prev-btn"
+                  class="invert"
+                  src="svg/previous.svg"
+                  alt="Prev"
+                />
+                <img
+                  id="main-play"
+                  class="invert"
+                  src="svg/play1.svg"
+                  alt="Play"
+                />
+                <img
+                  id="next-btn"
+                  class="invert"
+                  src="svg/next.svg"
+                  alt="Next"
+                />
+              </div>
+
+              <!-- Progress Bar -->
+              <div class="player-progress">
+                <audio id="audio-player"></audio>
+                <input type="range" id="progress-bar" value="0" />
+                <span id="current-time">0:00</span> /
+                <span id="total-time">0:00</span>
+
+                <!-- <img id="main-play" src="svg/play1.svg" alt="Play/Pause" /> -->
+                <audio id="audio-player"></audio>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

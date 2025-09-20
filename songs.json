@@ -1,0 +1,209 @@
+{
+  "trending": [
+    {
+      "title": "Thodi si Daaru",
+      "artist": "AP Dhillon, Shreya Ghoshal",
+      "image": "https://i.scdn.co/image/ab67616d00001e02eb0516ec1c97c3cc97f4cb61",
+      "audio": "songs/song1.mp3"
+    },
+    {
+      "title": "Monica",
+      "artist": "Aniruddha",
+      "image": "https://i.scdn.co/image/ab67616d00001e02ce3eecb6ce4eb1dfb6e06399",
+      "audio": "songs/song2.mp3"
+    },
+    {
+      "title": "Pal Pal",
+      "artist": "AlisumrooMusic",
+      "image": "https://i.scdn.co/image/ab67616d00001e0285c5968be0d0d9c545241124",
+      "audio": "songs/song3.mp3"
+    },
+    {
+      "title": "Azul",
+      "artist": "Guru Randhava",
+      "image": "https://i.scdn.co/image/ab67616d00001e02203e6495a78184970ab274ac",
+      "audio": "songs/song1.mp3"
+    },
+    {
+      "title": "Oh Mama TETEMA",
+      "artist": "Rayvanny",
+      "image": "https://i.scdn.co/image/ab67616d00001e02c019f17563fcc8cc9db655c2",
+      "audio": "songs/song2.mp3"
+    },
+    {
+      "title": "Pardesiya",
+      "artist": "Pritam,Sachet Tandon",
+      "image": "https://i.scdn.co/image/ab67616d00001e02d5754cde395f5c46792186c7",
+      "audio": "songs/song3.mp3"
+    },
+    {
+      "title": "Naam Chale",
+      "artist": "Vikram Sarkar",
+      "image": "https://i.scdn.co/image/ab67616d00001e027c2203c369b2d11d53f67726",
+      "audio": "songs/song1.mp3"
+    },
+    {
+      "title": "One Thousand miles",
+      "artist": "YoYo Honeysingh",
+      "image": "https://i.scdn.co/image/ab67616d00001e02d9bd2370b63b8aa6e7f9ff77",
+      "audio": "songs/song2.mp3"
+    },
+    {
+      "title": "Sahiba",
+      "artist": "Aaditya Rikshari",
+      "image": "https://i.scdn.co/image/ab67616d00001e020a47bbe7141fdfe0eb2cdba7",
+      "audio": "songs/song3.mp3"
+    }
+  ],
+  "artists": [
+    {
+      "name": "Pritam",
+      "artist": "Artist",
+      "image": "https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca",
+      "audio": "songs/song1.mp3"
+    },
+    {
+      "name": "A. R. Rehman",
+      "artist": "Artist",
+      "image": "https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c",
+      "audio": "songs/song2.mp3"
+    },
+    {
+      "name": "Shreya Ghoshal",
+      "artist": "Artist",
+      "image": "https://i.scdn.co/image/ab6761610000517459303d54ce789210e745e1a9",
+      "audio": "songs/song3.mp3"
+    },
+    {
+      "name": "Sachin-Jigar",
+      "artist": "Artist",
+      "image": "https://i.scdn.co/image/ab67616100005174bb4064bef3a825344d5eb79e",
+      "audio": "songs/song1.mp3"
+    },
+    {
+      "name": "Vishal-Shekhar",
+      "artist": "Artist",
+      "image": "https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf",
+      "audio": "songs/song2.mp3"
+    },
+    {
+      "name": "Atif Aslam",
+      "artist": "Artist",
+      "image": "https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84",
+      "audio": "songs/song3.mp3"
+    },
+    {
+      "name": "Aniruddha Ravichander",
+      "artist": "Artist",
+      "image": "https://i.scdn.co/image/ab676161000051740f0be2054fe9594026a6b843",
+      "audio": "songs/song1.mp3"
+    },
+    {
+      "name": "YoYo Honeysingh",
+      "artist": "Artist",
+      "image": "https://i.scdn.co/image/ab67616100005174bc7e4fffd515b47ff1ebbc1f",
+      "audio": "songs/song2.mp3"
+    },
+    {
+      "name": "Shankar-Ehsan",
+      "artist": "Artist",
+      "image": "https://i.scdn.co/image/ab676161000051743db0499a689aa9b4a47ebba3",
+      "audio": "songs/song3.mp3"
+    },
+    {
+      "name": "Amit Trivedi",
+      "artist": "Artist",
+      "image": "https://i.scdn.co/image/ab67616100005174a37271f7a4862a6e99ce345f",
+      "audio": "songs/song1.mp3"
+    },
+    {
+      "name": "Sachet Tandon",
+      "artist": "Artist",
+      "image": "https://i.scdn.co/image/ab67616100005174e34fad78221a2cb31da57946",
+      "audio": "songs/song2.mp3"
+    }
+  ],
+  "albums": [
+    {
+      "title": "Aashiqui 2",
+      "artist": "Mithoon, ankit Tiwari",
+      "image": "https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3",
+      "songs": [
+        {
+          "title": "Yeh Jawani hai diwani",
+          "artist": "AP Dhillon, Shreya Ghoshal",
+          "image": "https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4",
+          "audio": "songs/song1.mp3"
+        },
+        {
+          "title": "Monica",
+          "artist": "Aniruddha",
+          "image": "https://i.scdn.co/image/ab67616d00001e02ce3eecb6ce4eb1dfb6e06399",
+          "audio": "songs/song2.mp3"
+        },
+        {
+          "title": "Pal Pal",
+          "artist": "AlisumrooMusic",
+          "image": "https://i.scdn.co/image/ab67616d00001e0285c5968be0d0d9c545241124",
+          "audio": "songs/song3.mp3"
+        },
+        {
+          "title": "Azul",
+          "artist": "Guru Randhava",
+          "image": "https://i.scdn.co/image/ab67616d00001e02203e6495a78184970ab274ac",
+          "audio": "songs/song1.mp3"
+        },
+        {
+          "title": "Oh Mama TETEMA",
+          "artist": "Rayvanny",
+          "image": "https://i.scdn.co/image/ab67616d00001e02c019f17563fcc8cc9db655c2",
+          "audio": "songs/song2.mp3"
+        }
+      ]
+    },
+    {
+      "title": "Sanam teri kasam",
+      "image": "https://i.scdn.co/image/ab67616d00001e02711c1639b4bc0f9978ae77a6",
+      "songs": [
+        {
+          "title": "Song 1",
+          "artist": "Artist 1",
+          "image": "https://i.scdn.co/image/ab67616d00001e020a47bbe7141fdfe0eb2cdba7",
+          "audio": "songs/song1.mp3"
+        },
+        {
+          "title": "Song 2",
+          "artist": "Artist 2",
+          "image": "https://i.scdn.co/image/ab67616d00001e020a47bbe7141fdfe0eb2cdba7",
+          "audio": "songs/song2.mp3"
+        }
+      ]
+    },
+    {
+      "title": "Yeh Jawani Hai Diwani",
+      "image": "https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4"
+      
+    },
+    {
+      "title": "Finding Her",
+      "image": "https://i.scdn.co/image/ab67616d00001e0283141000ee8ce3b893a0b425"
+        
+
+    },
+    {
+      "title": "Young G.O.A.T.",
+      "image": "https://i.scdn.co/image/ab67616d00001e02a5183fa4b99bcec1f506418d"
+      
+    },
+    {
+      "title": "Ranjhan",
+      "image": "https://i.scdn.co/image/ab67616d00001e02773c5f60bcb309ef8802e4ef"
+      
+    },
+    {
+      "title": "Making Memories",
+      "image": "https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36"
+      
+    }
+  ]
+}

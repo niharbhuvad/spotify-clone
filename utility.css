@@ -1,0 +1,12 @@
+.graybg{
+    background-color: #121212;
+}
+.gradient{
+    background: linear-gradient(to bottom, rgb(31, 31, 31), #121212);
+}
+.size{
+    width: 22px;
+}
+.s1{
+    width: 15px;
+}
