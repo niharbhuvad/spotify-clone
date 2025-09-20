@@ -35,8 +35,10 @@ Open index.html in your browser 🎉
 
 📸 Screenshots
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f2b4ee4f-f39a-4306-af4f-c7d19e15e6a3" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1d9f0395-28f0-43cc-8e01-0b18383f5f99" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9aa3d764-35f5-4fb3-bd59-7deb95186db9" />
+<img width="1157" height="63" alt="image" src="https://github.com/user-attachments/assets/ea877a59-44e5-419a-82cc-8a761c0e3664" />
+
+
 
 
 
