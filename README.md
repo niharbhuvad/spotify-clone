@@ -9,7 +9,8 @@ This project focuses on the **frontend UI** and basic **music playback controls*
 - 🎶 Play, pause, next, and previous track controls  
 - ⏳ Seekbar with progress tracking  
 - 🔊 Volume control    
-- 🎧 Spotify-like design using pure HTML, CSS, and JS  
+- 🎧 Spotify-like design using pure HTML, CSS, and JS
+- Fetches data from json file 
 
 ---
 
